@@ -1,0 +1,7 @@
+{
+  "patients": 650,
+  "patient_months": 7800,
+  "lab_missing_fraction": 0.4967,
+  "failures": [],
+  "passed": true
+}

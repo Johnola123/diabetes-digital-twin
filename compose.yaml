@@ -1,0 +1,16 @@
+services:
+  dev:
+    build: .
+    environment: {APP_ENV: dev}
+    ports: ["8501:8501"]
+    volumes: ["./artifacts/dev:/app/artifacts/dev"]
+  test:
+    build: .
+    environment: {APP_ENV: test}
+    ports: ["8502:8501"]
+    volumes: ["./artifacts/test:/app/artifacts/test"]
+  prod:
+    build: .
+    environment: {APP_ENV: prod}
+    ports: ["8503:8501"]
+    volumes: ["./artifacts/prod:/app/artifacts/prod"]

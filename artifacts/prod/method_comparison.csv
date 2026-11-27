@@ -1,0 +1,6 @@
+method,effect,absolute_error_vs_truth
+Conventional regression (association),-0.5066199284064375,0.8075511229191413
+Stabilized IPTW MSM (assumption-dependent),-0.6601297898311608,0.6540412614944181
+Monitoring-weighted longitudinal g-computation,-0.3543236134171559,0.959847437908423
+Unweighted longitudinal g-computation,-0.40850937255052167,0.9056616787750572
+Known synthetic data-generating truth,-1.3141710513255789,0.0

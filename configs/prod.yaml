@@ -1,0 +1,5 @@
+environment: prod
+n_patients: 1000
+seed: 43
+artifact_dir: artifacts/prod
+max_weight: 15

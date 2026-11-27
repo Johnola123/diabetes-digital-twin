@@ -1,0 +1,21 @@
+{
+  "baseline_treatment_group_hba1c_p_value": 2.3484278589817373e-15,
+  "visit_rate": 0.5018518518518519,
+  "raw_weight_max": 50.41595874872428,
+  "truncated_weight_max": 15.0,
+  "weight_effective_sample_size": 91.82160182466389,
+  "total_final_patients": 450,
+  "holdout_observed_measurement_mae": 0.17094942149021417,
+  "holdout_naive_mae": 0.17473118503814605,
+  "mean_true_synthetic_effect": -1.3089638234685415,
+  "mean_twin_estimated_effect": -0.3038928385032132,
+  "individual_counterfactual_effect_mae": 1.003190917878421,
+  "illustrative_observed_outcome_interval_half_width": 0.3573716667992905,
+  "warnings": [
+    "Synthetic world only; no real-patient clinical validity",
+    "Unmeasured latent severity deliberately violates exchangeability",
+    "Static never/always policies may have limited positivity under observed treatment",
+    "Illustrative interval is based on observed-outcome residuals, NOT counterfactual coverage",
+    "No estimator is automatically selected by a numeric threshold"
+  ]
+}

@@ -1,0 +1,5 @@
+environment: dev
+n_patients: 450
+seed: 41
+artifact_dir: artifacts/dev
+max_weight: 15

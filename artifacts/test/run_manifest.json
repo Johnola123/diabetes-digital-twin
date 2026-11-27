@@ -1,0 +1,7 @@
+{
+  "environment": "test",
+  "seed": 42,
+  "patients": 650,
+  "method_count": 5,
+  "quality_passed": true
+}
